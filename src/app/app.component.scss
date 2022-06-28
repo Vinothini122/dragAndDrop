@@ -1,0 +1,133 @@
+  .container{
+    margin-left: 70px;
+    display: flex;
+  }
+  p{
+    margin-top: 15px;
+  }
+  input {
+    border-width: 0 0 1px;
+    border-radius: 0px;
+    background-color: #f8f9fa!important;
+  }
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.1px;
+    padding-bottom: 5px;
+}
+:host ::ng-deep.p-breadcrumb {
+  background: #f8f9fa!important;
+  border: none;
+  padding: 0px;
+}
+:host ::ng-deep.p-breadcrumb ul {
+  padding: 11px; 
+}
+.btn-sm {
+  font-size: 12px;
+  border-radius: 0.2rem;
+}
+.round {
+  display:block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #98FB98;
+  
+}
+:host ::ng-deep.p-dropdown {
+  border: none; 
+}
+:host ::ng-deep.p-dropdown:not(.p-disabled).p-focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: none;
+  border-color: none;
+}
+:host ::ng-deep.p-inputtext {
+font-size: 12px;
+}
+:host ::ng-deep.pi {
+  font-size: 12px;
+}
+:host ::ng-deep.p-dropdown.p-dropdown-clearable .p-dropdown-label {
+  padding-right: 0px;
+}
+:host ::ng-deep.p-dropdown .p-dropdown-trigger {
+  width: 25px;
+}
+.e-kanban .e-kanban-table {
+  border-spacing: none; 
+}
+
+.flex-container > div {
+  background-color: white;
+  margin: 7px;
+  padding: 8px;
+  font-size: 12px;
+  border: 1px solid grey;
+ float: right;
+ border-inline-start-width: 5px;
+}
+.flex-container {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  overflow: visible;
+  z-index: 1;
+  background-color: #003366;
+  transition: left 0.3s ease, width 0.3s ease;
+  height: 100%;
+  overflow-x: hidden;
+  padding-top: 18px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+
+.menu li {
+  width: 100%;
+  list-style: none;
+}
+
+.menu li ul { padding: 0 }
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 1px;
+  font-size: 20px;
+  display: block;
+}
+
+.menu > li.bottom {
+  margin-top: auto;
+}
+ol, ul {
+  padding-left: 2px;
+}
+footer{
+  text-align: center;
+  position: relative;
+  top: 90px;
+  font-size: 10px;
+}
