@@ -21,6 +21,8 @@ export class AppComponent {
 
   data: KanbanData[];
 
+  
+
   public cardSettings: CardSettingsModel = {
     contentField: 'Summary',
     headerField: 'Name',
